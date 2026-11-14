@@ -1,0 +1,8 @@
+# Aim 4 model comparison (install after requirements.txt)
+scikit-learn>=1.4
+xgboost>=2.0
+optuna>=3.5
+shap>=0.44
+torch>=2.2
+lightning>=2.2
+pytorch-forecasting>=1.0

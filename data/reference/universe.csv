@@ -1,0 +1,30 @@
+code,yahoo,name,segment,underlying,group,exchange,note
+F34,F34.SI,Wilmar International,Agri-commodity,palm,core,SGX,Integrated processor and merchant; levy comparison
+E5H,E5H.SI,Golden Agri-Resources,Agri-commodity,palm,core,SGX,Indonesian grower; levy-exposed
+EB5,EB5.SI,First Resources,Agri-commodity,palm,core,SGX,Indonesian grower; levy-exposed
+P8Z,P8Z.SI,Bumitama Agri,Agri-commodity,palm,core,SGX,Indonesian grower; levy-exposed
+VC2,VC2.SI,Olam Group,Agri-commodity,,core,SGX,Diversified food ingredients; borderline
+5WH,5WH.SI,Rex International,Oil & gas exploration,brent,core,SGX,
+T13,T13.SI,RH PetroGas,Oil & gas exploration,brent,core,SGX,
+5GI,5GI.SI,Interra Resources,Oil & gas exploration,brent,core,SGX,
+RE4,RE4.SI,Geo Energy Resources,Coal & mining,coal,core,SGX,
+5TP,5TP.SI,CNMC Goldmine,Coal & mining,gold,core,SGX,
+U96,U96.SI,Sembcorp Industries,Energy infrastructure,,core,SGX,Spark spread; no clean underlying
+BN4,BN4.SI,Keppel,Energy infrastructure,,core,SGX,2024 restructuring; borderline
+1F2,1F2.SI,Union Gas Holdings,Energy infrastructure,,core,SGX,Regulated LPG and gas retail
+5E2,5E2.SI,Seatrium,Energy services & offshore,brent,core,SGX,Responds through customer capex
+5LY,5LY.SI,Marco Polo Marine,Energy services & offshore,brent,core,SGX,
+DU4,DU4.SI,Mermaid Maritime,Energy services & offshore,brent,core,SGX,
+G92,G92.SI,China Aviation Oil,Fuel distribution & shipping,jet,core,SGX,
+S56,S56.SI,Samudera Shipping,Fuel distribution & shipping,,core,SGX,Container freight; crude is a cost
+AUE,AUE.SI,Golden Energy and Resources,Coal & mining,coal,delisted,SGX,Delisted 28 Sep 2023 after compulsory acquisition at S$0.181
+5JS,5JS.SI,Indofood Agri Resources,Agri-commodity,palm,levy-exposed,SGX,
+BNE,BNE.SI,Kencana Agri,Agri-commodity,palm,levy-exposed,SGX,
+AALI,AALI.JK,Astra Agro Lestari,Agri-commodity,palm,levy-exposed,IDX,
+LSIP,LSIP.JK,PP London Sumatra Indonesia,Agri-commodity,palm,levy-exposed,IDX,
+SIMP,SIMP.JK,Salim Ivomas Pratama,Agri-commodity,palm,levy-exposed,IDX,
+SSMS,SSMS.JK,Sawit Sumbermas Sarana,Agri-commodity,palm,levy-exposed,IDX,
+1961,1961.KL,IOI Corporation,Agri-commodity,palm,levy-comparison,Bursa,
+2445,2445.KL,Kuala Lumpur Kepong,Agri-commodity,palm,levy-comparison,Bursa,
+5285,5285.KL,SD Guthrie,Agri-commodity,palm,levy-comparison,Bursa,
+2291,2291.KL,Genting Plantations,Agri-commodity,palm,levy-comparison,Bursa,

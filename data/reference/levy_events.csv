@@ -1,0 +1,10 @@
+event_id,announced,first_session,event,policy,expected_sign_indonesian_growers,confidence,source
+E1,2020-12-10,2020-12-10,"Progressive CPO export levy of US$55-255/t takes effect (PMK 191/2020)",levy up,-1,verify announcement date,https://www.thejakartapost.com/news/2020/12/10/indonesia-imposes-higher-export-levies-amid-year-end-rally-in-global-cpo-prices
+E2,2022-01-27,2022-01-27,"Domestic market obligation (20%) announced for CPO and olein exporters",DMO up,-1,verify exact date,
+E3,2022-03-09,2022-03-10,"DMO raised to 30%",DMO up,-1,verify exact date,
+E4,2022-03-17,2022-03-17,"DMO revoked; export levy cap raised from US$355 to US$375/t",mixed,0,partly confirmed,https://www.globalcompliancenews.com/2022/04/01/indonesia-reverses-course-on-export-restriction-on-crude-palm-oil-products-and-instead-imposes-higher-export-levy-to-control-the-export-of-cooking-oil-25032022/
+E5,2022-04-22,2022-04-25,"Export ban on cooking oil and raw materials announced (Friday evening), from 28 Apr",ban,-1,widely reported; confirm against Reuters,https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/agriculture/051922-indonesia-to-lift-ban-on-palm-oil-exports-from-may-23-trade-reactions-vary
+E6,2022-04-27,2022-04-28,"Ban widened to include crude palm oil (late 27 Apr); ban starts 28 Apr",ban,-1,widely reported; confirm against Reuters,
+E7,2022-05-19,2022-05-20,"President announces the ban ends on 23 May",ban lifted,1,confirmed,https://www.businesstoday.in/latest/world/story/indonesia-to-lift-palm-oil-export-ban-from-monday-says-president-334255-2022-05-19
+E8,2022-07-16,2022-07-18,"Export levy cut to zero until 31 Aug 2022",levy down,1,confirmed,https://www.thejakartapost.com/business/2022/07/17/government-removes-palm-oil-export-levy-until-aug-31
+E9,2025-05-14,2025-05-15,"CPO export levy raised from 7.5% to 10% of the reference price (PMK 30/2025), effective 17 May",levy up,-1,confirmed,https://english.kontan.co.id/news/indonesia-raises-cpo-export-levy-to-10-effective-may-17

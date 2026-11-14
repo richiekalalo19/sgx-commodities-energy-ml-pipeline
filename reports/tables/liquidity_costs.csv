@@ -1,0 +1,43 @@
+Code,Name,Relative Round trip Cost / %,,,,Coutners,Additional Sources,Fallback,,,,,Stage,,Period,Focus,Key Deliverables,Status
+BN4,Keppel,0.36,,,,9 with a daily commodity series,"Geo and coal moves from API2 Rotterdam to Newcastle coal, which continues significantly expands the 2023-2025 dataset and provides additional Asia-Pacific context instead of European data",Geo / coal keeps API2 with no residual coal data from 2026 onwards,,,,,1,Groundwork,S1 W1-9,"Literature Review, Universe Selection, Problem Framing",Research scope and problem statement,Done
+U96,Sembcorp Industries,0.43,,,,4 palm oil,Underlying moves from IMF palm to FCPO (Bursa palm futures) to better reflect local context and provides daily data instead of monthly,Monthly IMF remains the underlying and pass-through is reported monthly,,,,,2,Data and Infrastructure,S1 W6-12,"Data pipeline, cost model, harness","Panel, frozen harness, sealed lockbox",In Progress
+5E2,Seatrium,0.81,,,,5 with no traded underlying,"Freight for Samudera, power/gas series for Ssembcorp, rest stays market only",Market-only underlying,,,,,3,Aim 1: Pass-through,S1 W10-13,Dimson and Kalman sensitivities,Residual series,In Progress
+F34,Wilmar International,0.56,,,,,,,,,,,4,Aims 2 + 3,Break-S2 W6,Feature engineering for Fundamental analysis and news analysis,"Ranked list for FA, Event database",Planned
+EB5,First Resources,0.53,,,,,,,,,,,5,Aim 4,S2 W4-9,"Backtesting, Modelling,","Deep Learning models, backtesting results, 4-model comparison",Planned
+5TP,CNMC Goldmine,1.12,,,,,,,,,,,6,Aim 5,S2 W8-11,Cost aware strategy,"Alpha with intervals, lockbox result ",Planned
+RE4,Geo Energy Resources,1.25,,,,,,,,,,,7,Reporting,S2 W8-Exams,Final report and oral defense,"Final report, presentation, and submission",Planned
+E5H,Golden Agri-Resources,2.08,,,,,,,,,,,,,,,,
+5LY,Marco Polo Marine,1.15,,,,,,,,,,,,,,,,
+VC2,Olam Group,0.81,,,,,,,,,,,,,,,,
+P8Z,Bumitama Agri,0.85,,,,,,,,,,,,,,,,
+G92,China Aviation Oil,1.07,,,,,,,,,,,,,,,,
+5WH,Rex International,2.08,,,,,,,,,,,,,,,,
+S56,Samudera Shipping,0.82,,,,,,,,,,,,,,,,
+T13,RH PetroGas,0.90,,,,,,,,,,,,,,,,
+DU4,Mermaid Maritime,1.50,,,,,,,,,,,,,,,,
+1F2,Union Gas Holdings,1.47,,,,,,,,,,,,,,,,
+5JS,Indofood Agri Resources,1.80,,,,,,,,,,,,,,,,
+BNE,Kencana Agri,1.18,,,,,,,,,,,,,,,,
+5GI,Interra Resources,3.04,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Challenge,Response,,,,,,,,,,,,,,,,,
+Data alignment issues,Forward Filling feature attribution to the next trading session where the information becomes public,,,,,,,,,,,,,,,,,
+Free daily palm series is a monthly-average swap not reflective of daily movement,"Bloomberg FCPO, with Monthly IMF prices for the explolatory report as a feedback",,,,,,,,,,,,,,,,,
+Commodities settling after the market close,Use Dimson lead-lag regressions such that overnight signals trade can be represented at the next open,,,,,,,,,,,,,,,,,
+Round trip costs reaching 2.08% on small counters,Determine strategy: Monthly rebalancing + a cost-based entry threshold,,,,,,,,,,,,,,,,,
+n = 18 counters. only IC ³ 0.16 at 18-months of lockbox,Judge performance on the walk-forward record and relagate the lockbox to a sanity check + every null result will be reported as the smallest effect it could have possibly detected.,,,,,,,,,,,,,,,,,
+"Free-data gaps: pre-2021 fundamentals, Golden Energy, SGX announcements","Bloomberg, annual reports and Factiva",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Counter,Monthly _,t,R_ added (pts),,,,,,,,,,,,,,,
+Bumitama Agri,0.45,4.7,11.1,,,,,,,,,,,,,,,
+First Resources,0.39,5,10.7,,,,,,,,,,,,,,,
+Golden Agri-Resources,0.2,2.9,3.5,,,,,,,,,,,,,,,
+Wilmar International,0.17,3.3,4.5,,,,,,,,,,,,,,,

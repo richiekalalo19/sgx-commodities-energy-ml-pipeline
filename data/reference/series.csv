@@ -1,0 +1,24 @@
+key,source,symbol,description,frequency,timing
+sti,yahoo,^STI,"Straits Times Index (price index, no dividends)",daily,"17:00 SGT, same day"
+sti_etf,yahoo,ES3.SI,SPDR STI ETF; adjusted close gives the STI total-return benchmark,daily,"17:00 SGT, same day"
+klci,yahoo,^KLSE,FTSE Bursa Malaysia KLCI,daily,"17:00 MYT = 17:00 SGT, same day"
+jkse,yahoo,^JKSE,Jakarta Composite Index,daily,"16:00 WIB = 17:00 SGT, same day"
+palm,yahoo,CPO=F,"Crude palm oil, USD futures settled on Bursa FCPO (Yahoo CPO=F)",daily,"Bursa FCPO day session ends 18:00 MYT, an hour after the SGX close"
+coal,yahoo,MTF=F,"Coal, API2 Rotterdam futures (Yahoo MTF=F; history ends Dec 2025)",daily,"London close, after the SGX close"
+brent,yahoo,BZ=F,"Brent crude, ICE front-month futures",daily,"settles 19:30 London, about 02:30 SGT next day"
+brent_spot,fred,DCOILBRENTEU,Brent spot FOB Europe (EIA via FRED),daily,"London close, after the SGX close"
+wti,yahoo,CL=F,"WTI crude, NYMEX front-month futures",daily,"settles 14:30 New York, about 02:30 SGT next day"
+gold,yahoo,GC=F,"Gold, COMEX front-month futures",daily,"settles 13:30 New York, about 01:30 SGT next day"
+jet,fred,DJFUELUSGULF,"Jet fuel, US Gulf Coast spot (EIA via FRED)",daily,"US close, after the SGX close"
+heating_oil,yahoo,HO=F,NY Harbor ULSD futures (jet-fuel proxy),daily,"US close, after the SGX close"
+henry_hub,yahoo,NG=F,Henry Hub natural gas futures,daily,"US close, after the SGX close"
+dry_bulk,yahoo,BDRY,"Breakwave Dry Bulk Shipping ETF (freight futures proxy, from 2018)",daily,"US close, after the SGX close"
+palm_m,fred,PPOILUSDM,"Global price of palm oil, monthly (IMF via FRED)",monthly,monthly average
+coal_m,fred,PCOALAUUSDM,"Australian thermal coal, monthly (IMF via FRED)",monthly,monthly average
+brent_m,fred,POILBREUSDM,"Brent crude, monthly (IMF via FRED)",monthly,monthly average
+lng_m,fred,PNGASJPUSDM,"LNG, Japan, monthly (IMF via FRED)",monthly,monthly average
+usdsgd,yahoo,SGD=X,USD/SGD,daily,rolling 24 h; Yahoo close is London evening
+usdmyr,yahoo,MYR=X,USD/MYR,daily,rolling 24 h
+usdidr,yahoo,IDR=X,USD/IDR,daily,rolling 24 h
+usdsgd_fred,fred,DEXSIUS,"SGD per USD, noon New York (FRED)",daily,noon New York = 00:00 SGT next day
+vix,fred,VIXCLS,CBOE VIX close (FRED),daily,"US close, after the SGX close"

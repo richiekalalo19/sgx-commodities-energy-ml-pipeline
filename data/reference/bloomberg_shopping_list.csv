@@ -1,0 +1,10 @@
+need,suggested_ticker_or_function,why,priority,note
+Crude palm oil futures (Bursa FCPO) daily,KO1 Comdty and KO3 Comdty,Daily palm underlying for Aim 1 and the levy experiment; CME CPO settles on the third month,1,Verify tickers on the terminal; export daily PX_LAST since 2013
+Indonesian domestic CPO price (KPBN tender),Search KPBN on the terminal,Underlying for Indonesian growers in the levy experiment,2,May not exist on Bloomberg; then use GAPKI or KPBN publications
+Newcastle thermal coal futures daily,Search Newcastle coal futures (ICE),Underlying for Geo Energy; Yahoo MTF=F ends Dec 2025,1,Verify ticker
+Baltic Dry and container freight indices,BDIY Index; search for container freight indices,Samudera and offshore names,3,Verify tickers
+Brent front-month back-adjusted,CO1 Comdty,Clean daily Brent without roll jumps,2,Or keep FRED spot
+Golden Energy and Resources history to Sep 2023,AUE SP Equity,Delisted counter; avoids survivorship bias,1,Prices and dividends
+Fundamentals FY2013 to FY2025,BDH with fields such as CURR_ENTP_VAL EBITDA NET_DEBT CF_CASH_FROM_OPER BS_TOT_ASSET RETURN_ON_ASSET,Aim 2 ranking and pass-through panel; free data covers FY2021 onward only,1,Check field names with FLDS; record the filing date of each figure
+Results announcement dates and times,ERN or EVTS functions,Event timestamps for Aim 3; SGX API is closed,2,Announcement time matters for the next-session convention
+Singapore risk-free rate,SORA or 3-month SGS T-bill,Sharpe and Jensen's alpha currently use zero,3,MAS website also publishes these

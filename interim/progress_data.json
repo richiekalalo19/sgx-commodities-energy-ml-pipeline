@@ -1,0 +1,32 @@
+{
+ "equities_in_universe": 29,
+ "equities_downloaded": 28,
+ "series_total": 23,
+ "series_yahoo": 15,
+ "series_fred": 8,
+ "sgx_snapshot_securities": 1335,
+ "first_date": "2013-01-02",
+ "last_date": "2026-10-21",
+ "sgx_trading_days": 3460,
+ "core_in_universe": 18,
+ "core_trading": 17,
+ "pass_100k": 15,
+ "pass_1m": 12,
+ "round_trip_min": 0.36,
+ "round_trip_min_name": "Keppel",
+ "round_trip_max": 2.08,
+ "round_trip_max_name": "Rex International",
+ "scripts": [
+  "01_collect_market_data.py",
+  "02_build_panel.py",
+  "03_probe_fundamentals.py",
+  "10_liquidity_costs.py",
+  "11_passthrough_timing.py",
+  "12_synthetic_validation.py",
+  "13_levy_event_study.py",
+  "14_basket_plumbing.py",
+  "20_deck_data.py",
+  "21_brief_html.py",
+  "22_progress_data.py"
+ ]
+}

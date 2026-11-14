@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: fyp
+Version: 0.1.0
+Summary: A1088-261: FA-NA-TA trading framework for SGX energy and commodity equities
+Requires-Python: >=3.11
